@@ -1,0 +1,19 @@
+{
+  "name": "booking-appointment",
+  "version": "1.0.0",
+  "description": "this is booking appointment app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  }
+}
